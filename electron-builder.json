@@ -1,0 +1,21 @@
+{
+    "appId": "com.ignite.aplicativo_em_electron_e_react",
+    "icon": "src/ui/assets/example.png",
+    "files": [
+        "dist-electron",
+        "dist-react"
+    ],
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": [
+            "portable",
+            "msi"
+        ]
+    }
+}
